@@ -11,6 +11,10 @@
 # production
 /build
 
+#runtime config
+/public/runtime.config.js
+
+
 # misc
 .DS_Store
 .env.local

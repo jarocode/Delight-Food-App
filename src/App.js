@@ -4,6 +4,7 @@ import { ReactQueryCacheProvider, QueryCache } from "react-query";
 
 import AppRouter from "routes/Routes";
 import store from "store/store";
+import "./App.css";
 
 const queryCache = new QueryCache({
   defaultConfig: {
