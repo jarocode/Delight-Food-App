@@ -18,7 +18,7 @@ export default function AppRouter() {
           path="/foodListings"
           exact
           element={
-            Object.keys(store.getState()?.listings).length !== 0 ? (
+            store.getState()?.listings ? (
               <FoodListings />
             ) : (
               <Navigate replace to="/" />
